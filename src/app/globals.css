@@ -17,11 +17,10 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  background-color: #FFF7F3;
+
+}
+/* Customize scrollbar width and position */
+::-webkit-scrollbar {
+  width: 8px; /* Set the width as per your preference */
 }
